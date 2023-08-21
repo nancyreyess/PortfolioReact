@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lilita+One&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    background-color: #fefbe9;
+    color: #264143;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+/* search what all this is ^*/
+
+/* GENERAL */
+
+body {
+    margin: 0;
+}
+
+#site-name {
+    color: #264143;
+}
+
+.project-section a {
+    font-weight: 500;
+    color: #f6c453;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #f0a04b;
+}
+
+h2 {
+    font-family: 'Lilita One', cursive;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #fefbe9; /*option 1: #f2ebe9; option 2: #fefbe9*/
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NAV */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    display: flex;
+}
+
+header a {
+    text-decoration: none;
+    color: #264143;
+}
+
+/* INTRO */
+
+.intro-section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    color: #f6c453;
+    font-size: 50px;
+    margin: 0;
+}
+
+.jobTitle {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 0;
+    color: #eddcd9;
+}
+
+.langList {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+/* ABOUT */
+#about {
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.blurb {
+    padding: 20px;
+    background-color: rgba(237, 220, 217, 0.2); 
+    border-radius: 10px;
+}
+
+.blurb p {
+    margin: 0;
+}
+
+/* PROJECTS */
+
+.project-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #e1eedd;
+    text-align: center;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projectBox {
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(254, 251, 233, 0.6);
+    margin-right: 10px; 
+    margin-bottom: 10px; /* Adjust as needed to control vertical spacing between boxes */
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fefbe9;
+}
+
+.projectBox img {
+    width: 300px;
+    align-content: center;
+    border: 1px solid #fefbe9;
+}
+
+/* CONTACT */
+
+.contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fefbe9;
+    text-align: center;
+}
+
+#emailIcon {
+    color: #eddcd9;
+}
+.contactLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: 50px;
+    color: #eddcd9;
+}
+
+.contactLinks a {
+    color: #eddcd9;
+}
+
+.contactLinks a:hover {
+    color: #cfb8b3;
+}
+
+/* FOOTER */
+
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Larger than tablet size */
+@media screen and (max-width: 1024px) {
+    /* Adjust intro-section padding and font sizes for tablet */
+    .intro-section,
+    #about,
+    .contact-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .intro h1 {
+        font-size: 36px;
+    }
+
+    .jobTitle {
+        font-size: 24px;
+    }
+
+    .langList {
+        font-size: 16px;
+    }
+
+    /* Adjust project-box width for tablet */
+    .projectBox {
+        width: 50%;
+    }
+}
+
+/* Phone size */
+@media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .intro-section,
+    #about,
+    .project-container,
+    .contact-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .intro h1 {
+        font-size: 24px;
+    }
+
+    .jobTitle {
+        font-size: 20px;
+    }
+
+    .langList {
+        font-size: 14px;
+    }
+
+    .blurb p {
+        font-size: 16px;
+    }
+
+    .projectBox {
+        width: 100%;
+        margin-right: 0;
+    }
+}

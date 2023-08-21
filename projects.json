@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Motiv8 Ball",
+        "img_url": "../src/assets/image/motiv8ball.png",
+        "blurb": "Motiv8 ball produces motivational phrases when you shake it.",
+        "url": "http://nancyreyes.epizy.com/motiv8ball"
+    },
+    {
+        "title": "Spotify x Wikipedia API Project",
+        "img_url": "../src/assets/image/spotifyxwikipedia.png",
+        "blurb": "Search artist to find artist info and list of albums.",
+        "url": "https://github.com/nancyreyess/SpotifyxWikipedia_APIassignment"
+    },
+    {
+        "title": "Creative Collab",
+        "img_url": "../src/assets/image/creativecollab.png",
+        "blurb": "Merged two projects, a real estate and restaurant review application, to create a community based real estate agency",
+        "url": "https://github.com/nancyreyess/CreativeCollab"
+    }
+]
