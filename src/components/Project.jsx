@@ -9,7 +9,7 @@ export default function Project() {
   //hook function
   useEffect(() => {
     //fetch the json file
-    fetch('../projects.json')
+    fetch('../../projects.json')
       .then(response => response.json())
       .then(data => setProjects(data))
       .catch(error => console.error('Error fetching data:', error));

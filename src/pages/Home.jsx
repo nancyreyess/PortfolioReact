@@ -8,7 +8,7 @@ export default function Home() {
     <main>
       <section id="intro" className="intro-section">
         <div className="intro">
-          <h1> NANCY REYES</h1>
+          <h1>NANCY REYES</h1>
           <h2 className="jobTitle">Web Developer</h2>
           <div class="langList">
             <div><h3>HTML</h3></div>
@@ -33,7 +33,7 @@ export default function Home() {
       </section>
       <section id="contact" className="contact-section">
         <h2>CONTACT ME</h2>
-        <p>If you'd like to get in touch, feel free to contact me:</p>
+        <p>If you'd like to get in touch, contact me at:</p>
         <p><span id="emailIcon"><FontAwesomeIcon icon={faEnvelope} /></span> : nancymelreyes@gmail.com</p>
         <div className="contactLinks">
           <div id="linkedIn"><a href="https://linkedin.com/in/nancy-reyes-61696127b"><FontAwesomeIcon icon={faLinkedin} /></a></div>
