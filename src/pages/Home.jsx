@@ -20,19 +20,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about">
-      <div className="blurb">
-          <p>I've always been captivated by the ever-evolving world of technology, so I began my web development journey by enrolling in Humber's Web Development program. Throughout this educational experience, I have embraced the challenges and triumphs that coding and design present.</p>
-          <br></br>
-          <p>As an aspiring Full Stack Developer, my goal is to craft innovative and user-centric digital experiences. With a keen attention to detail and a problem-solving mindset, I am committed to contributing to the realm of web development and translating impactful concepts into reality.</p>
-        </div>
+      <section id="about" className="about-section">
+        <h2>ABOUT ME</h2>
+        <p>I've always been captivated by the ever-evolving world of technology, so I began my web development journey by enrolling in Humber's Web Development program. Throughout this educational experience, I have embraced the challenges and triumphs that coding and design present.</p>
+        <br></br>
+        <p>As an aspiring Full Stack Developer, my goal is to craft innovative and user-centric digital experiences. With a keen attention to detail and a problem-solving mindset, I am committed to contributing to the realm of web development and translating impactful concepts into reality.</p>
       </section>
       <section id="projects" className="project-container">
         <h2>PROJECTS</h2>
         <Project />
       </section>
       <section id="contact" className="contact-section">
-        <h2>CONTACT ME</h2>
+        <h2>CONTACT</h2>
         <p>If you'd like to get in touch, contact me at:</p>
         <p><span id="emailIcon"><FontAwesomeIcon icon={faEnvelope} /></span> : nancymelreyes@gmail.com</p>
         <div className="contactLinks">
