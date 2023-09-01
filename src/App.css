@@ -104,7 +104,7 @@ h1 {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: #eddcd9;
+    background-color: #fefbe9;
     text-align: center;
 }
 
@@ -189,9 +189,6 @@ h1 {
     text-align: center;
 }
 
-#emailIcon {
-    color: #eddcd9;
-}
 .contactLinks {
     display: flex;
     flex-direction: row;
