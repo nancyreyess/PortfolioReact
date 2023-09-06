@@ -22,7 +22,8 @@ export default function Project() {
         <div className="projectBox" key={index}>
           <img src={project.img_url}></img>
           <h3><a href={project.url}>{project.title}</a></h3>
-          <p>{project.blurb}</p>
+          <p className="projectUsed">{project.used.join(' | ')}</p>
+          <p className="projectBlurb">{project.blurb}</p>
         </div>
       ))}
     </div>

@@ -2,19 +2,43 @@
     {
         "title": "Motiv8 Ball",
         "img_url": "../src/assets/image/motiv8ball.png",
-        "blurb": "Motiv8 ball produces motivational phrases when you shake it.",
-        "url": "http://nancyreyes.epizy.com/motiv8ball"
+        "blurb": "A twist on the nostalgic and whimsical Magic 8 Ball - Motiv8 Ball responds to a shake by revealing empowering and uplifting quotes.",
+        "url": "http://nancyreyes.epizy.com/motiv8ball",
+        "used": ["JavaScript", "HTML", "CSS"]
     },
     {
         "title": "Spotify x Wikipedia API Project",
         "img_url": "../src/assets/image/spotifyxwikipedia.png",
-        "blurb": "Search artist to find artist info and list of albums.",
-        "url": "https://github.com/nancyreyess/SpotifyxWikipedia_APIassignment"
+        "blurb": "This project allows you to view an artist's discrography and brief description using the Spotify and Wikipedia APIs.",
+        "url": "https://github.com/nancyreyess/SpotifyxWikipedia_APIassignment",
+        "used": ["React.js", "Spotify API", "Wikipedia API"]
     },
     {
-        "title": "Creative Collab",
-        "img_url": "../src/assets/image/creativecollab.png",
-        "blurb": "Merged two projects, a real estate and restaurant review application, to create a community based real estate agency",
-        "url": "https://github.com/nancyreyess/CreativeCollab"
+        "title": "Brunch Buds",
+        "img_url": "../src/assets/image/brunchbuds.png",
+        "blurb": "Brunch Buds is a restaurant review application created using ASP.NET MVC and Entity Framework, offering CRUD capabilities.",
+        "url": "https://github.com/nancyreyess/PP_RestaurantReview",
+        "used": ["ASP.NET", "C#", "SQL", "Bootstrap"]
+    },
+    {
+        "title": "Snack Generator",
+        "img_url": "../src/assets/image/snackgenerator.png",
+        "blurb": "Designed for when you're babysitting your nephew and you need to think of snacks to feed him.",
+        "url": "http://nancyreyes.epizy.com/petproject",
+        "used": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+        "title": "Library CMS",
+        "img_url": "../src/assets/image/libraryCMS.png",
+        "blurb": "This library CMS consists of a simple login process, a dashboard, a place to view/add/edit/delete users and books.",
+        "url": "https://github.com/nancyreyess/PHP-Library-CMS",
+        "used": ["PHP", "HTML", "SQL"]
+    },
+    {
+        "title": "HAP Pitch",
+        "img_url": "../src/assets/image/HFA.png",
+        "blurb": "Proposed design for Health for All Partnership. Created in collaboration with UX/UI designers. ",
+        "url": "https://github.com/nancyreyess/HFAwebsite",
+        "used": ["Figma", "HTML", "CSS"]
     }
 ]

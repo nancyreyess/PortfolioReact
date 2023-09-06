@@ -32,10 +32,12 @@ a:hover {
 
 h2 {
     font-family: 'Lilita One', cursive;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 /* HEADER */
@@ -105,7 +107,6 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #fefbe9;
-    text-align: center;
 }
 
 .about-section h2 {
@@ -114,18 +115,9 @@ h1 {
 
 .about-section p {
     color: #264143;
-}
-
-/* may not need blurb*/
-.blurb {
-    padding: 20px;
-    background-color: rgba(237, 220, 217, 0.2); 
-    border-radius: 10px;
-}
-
-.blurb p {
     margin: 0;
 }
+
 
 /* PROJECTS */
 
@@ -133,7 +125,6 @@ h1 {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #e1eedd;
-    text-align: center;
 }
 
 .project-container h2 {
@@ -178,6 +169,16 @@ h1 {
 .projectBox img {
     width: 300px;
     align-content: center;
+}
+
+.projectBlurb {
+    text-align: left;
+    margin: 15px;
+}
+
+.projectUsed {
+    border-radius: 10px;
+    color: #e67bb0;
 }
 
 /* CONTACT */
