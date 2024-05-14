@@ -21,7 +21,7 @@ export default function Project() {
       {projects.map((project, index) => (
         <div className="projectBox" key={index}>
           <img src={project.img_url}></img>
-          <h3><a href={project.url}>{project.title}</a></h3>
+          <h3><a href={project.url} target="_blank">{project.title}</a></h3>
           <p className="projectUsed">{project.used.join(' | ')}</p>
           <p className="projectBlurb">{project.blurb}</p>
         </div>
