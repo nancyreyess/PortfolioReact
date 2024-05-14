@@ -3,7 +3,7 @@
         "title": "Motiv8 Ball",
         "img_url": "../src/assets/image/motiv8ball.png",
         "blurb": "A twist on the nostalgic and whimsical Magic 8 Ball - Motiv8 Ball responds to a shake by revealing empowering and uplifting quotes.",
-        "url": "http://nancyreyes.epizy.com/motiv8ball",
+        "url": "https://motiv8ball.infinityfreeapp.com",
         "used": ["JavaScript", "HTML", "CSS"]
     },
     {
